@@ -1,8 +1,16 @@
 {% extends 'core/base.html' %}
 
-{% block title %}About{% endblock %} 
+{% block title %}About{% endblock %}
+
+{% block background%}{% load static %}{% static 'core/img/home.jpg' %}{% endblock %}
 
 {% block content %}
+
+{% block headers %}
+<h1> Acerca de</h1>
+<span class="subheading">...</span>
+{% endblock %}
+
 <h2>Acerca de</h2>
 
 <p> soy yo</p>

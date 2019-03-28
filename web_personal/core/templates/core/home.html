@@ -1,8 +1,15 @@
 {% extends 'core/base.html' %}
 
-{% block title %}Portada{% endblock %} 
+{% block title %}Portada{% endblock %}
+
+{% block background%}{% load static %}{% static 'core/img/home.jpg' %}{% endblock %}
 
 {% block content %}
+
+{% block headers %}
+<h1> My web personal</h1>
+<span class="subheading">XD</span>
+{% endblock %}
 
 <h2>Portada</h2>
 
